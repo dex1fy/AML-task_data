@@ -23,7 +23,7 @@ $$;
 
 
 -- LOGIN-роли и пароли создаются в локальном 06_security.local.sql.
--- Этот файл не коммитится, см. 06_security.local.example.sql.
+-- Этот файл не коммитится, потому что подходит под правило *.local.sql в .gitignore.
 REVOKE ALL ON SCHEMA aml_task FROM PUBLIC;
 REVOKE ALL ON ALL TABLES IN SCHEMA aml_task FROM PUBLIC;
 REVOKE ALL ON ALL SEQUENCES IN SCHEMA aml_task FROM PUBLIC;
