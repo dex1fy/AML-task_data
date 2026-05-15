@@ -1,0 +1,9 @@
+# Local IDE state and database connection metadata
+.idea/
+
+# Local secrets/configs
+*.local.sql
+.env
+.env.*
+
+!.env.example
